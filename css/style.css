@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.4rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  color: #4D4D4D;
+  height: 100vh;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+.header {
+  display: block;
+  width: 80ch;
+  padding: 1.5rem 0 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  width: 131px;
+  height: 27px;
+  background-image: url(/img/logo.svg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.nav {
+  display: flex;
+  width: 80ch;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto 1rem;
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 1rem;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.nav-item > a {
+  color: #3E89C0;
+}
+
+.nav-item-active > a {
+  background-color: #3e89c0;
+  color: white;
+  padding: 0.2rem 0.4rem;
+}
+
+.tmpl-home, .tmpl-post {
+  width: 80ch;
+  margin: 1rem auto 2rem;
+}
+
+.tmpl-post > time {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.tmpl-post > p {
+  margin-top: 1rem;
+}
+
+.postlist {
+  list-style: none;
+}
+
+.postlist-item {
+  margin-bottom: 2rem;
+}
+
+.postlist-item > h3 {
+  display: flex;
+}
+
+.postlist-date {
+  color: #8D8D8D;
+  margin-right: 0.5rem;
+}
+
+.postlist-link {
+  color: #3E89C0;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
+.posttags {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.posttags-title {
+  margin-right: 0.5rem;
+}
+
+.posttags-item, .alltags-item {
+  color: inherit;
+  background-color: #DCDCDC;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.tagged-title {
+  margin-bottom: 2rem;
+}
+
+.alltags-link > a {
+  color: #3E89C0;
+  font-weight: bold;
+}
+
+.alltags-list {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.custom-page > p {
+  margin-top: 1rem;
+}
+
+.custom-page > p > a {
+  color: #3E89C0;
+}
+
+.custom-page > h3 {
+  margin-top: 1rem;
+}
+
+.custom-page > h3 > a {
+  color: #3E89C0;
+}
+
+.custom-page > .projects-item {
+  margin-top: 2rem;
+}
+
+.custom-page > .projects-item > h3 > a {
+  color: #3E89C0;
+}
+
+.custom-page > .projects-item > p {
+  margin-top: 0.5rem;
+}
+
+.footer {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  width: 100ch;
+  margin: auto auto 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #DCDCDC;
+}
+
+.footer > p {
+  line-height: 1.2rem;
+}
+
+.footer > p > a {
+  display: inline-block;
+  color: #3E89C0;
+  font-weight: bold;
+}

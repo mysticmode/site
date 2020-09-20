@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+layout: layouts/home.njk
+eleventyComputed:
+  title: Articles tagged under “{{ tag }}” - Web of Nirmal Almara
+permalink: /tags/{{ tag }}/
+---
+<h2 class="tagged-title">Articles tagged under “{{ tag }}”</h2>
+
+{% set postslist = collections[ tag ] %}
+{% include "postslistbytags.njk" %}
+
+<p class="alltags-link">See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

@@ -1,0 +1,20 @@
+{
+  "title": "Web of Nirmal Almara",
+  "url": "https://nirm.al/",
+  "description": "",
+  "feed": {
+    "subtitle": "",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://nirm.al/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://nirm.al/feed/feed.json"
+  },
+  "author": {
+    "name": "Nirmal Almara",
+    "email": "nirmal.almara@outlook.com",
+    "url": "https://nirm.al/about/"
+  }
+}
