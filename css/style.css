@@ -168,6 +168,11 @@ p {
   margin-top: 0.5rem;
 }
 
+.custom-page > img {
+  display: block;
+  margin-top: 20px;
+}
+
 .footer {
   display: block;
   font-size: 13px;
